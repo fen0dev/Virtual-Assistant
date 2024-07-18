@@ -24,9 +24,9 @@ Features:
 
 bash
 
-project/
+EXAMPLE - project/
 │
-├── main.py                # Main script to run the virtual assistant
+├── zina.py                # Main script to run the virtual assistant
 ├── requirements.txt       # List of required Python packages
 ├── folder1/
 │   ├── __init__.py
@@ -58,7 +58,7 @@ sh
     pip install -r requirements.txt
 
     Set up API keys:
-        Obtain an API key from OpenWeatherMap and replace YOUR_OPENWEATHERMAP_API_KEY in main.py.
+        Obtain an API key from OpenWeatherMap and replace YOUR_OPENWEATHERMAP_API_KEY in zina.py.
         Set up Spotify and Apple Music credentials if required.
 
 # Running the Assistant
