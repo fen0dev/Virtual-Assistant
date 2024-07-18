@@ -20,7 +20,7 @@ Features:
         Suggests meals and beverages based on the time of day and user preferences.
         Provides complete recipes for suggested meals.
 
-Directory Structure
+# Directory Structure
 
 bash
 
@@ -35,7 +35,7 @@ project/
     ├── __init__.py
     └── script2.py         # Additional functionality
 
-Setup and Installation
+# Setup and Installation
 
     Clone the repository:
 
@@ -44,14 +44,14 @@ Setup and Installation
 git clone https://github.com/yourusername/virtual-assistant.git
 cd virtual-assistant
 
-Create a virtual environment:
+# Create a virtual environment:
 
 sh
 
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+source venv/bin/activate  ---> On Windows use `venv\Scripts\activate`
 
-Install dependencies:
+# Install dependencies:
 
 sh
 
@@ -61,7 +61,7 @@ sh
         Obtain an API key from OpenWeatherMap and replace YOUR_OPENWEATHERMAP_API_KEY in main.py.
         Set up Spotify and Apple Music credentials if required.
 
-Running the Assistant
+# Running the Assistant
 
 Run the main script:
 
@@ -69,7 +69,7 @@ sh
 
 python main.py
 
-Key Functions
+# Key Functions
 
     listen(): Captures audio input and converts it to text.
     speak(text): Converts text to speech.
@@ -78,9 +78,10 @@ Key Functions
     check_apple_music(): Checks if Apple Music is installed and can play music.
     can_play_music(): Determines the best way to play music based on available subscriptions and services.
 
-Contributing
+ # Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas or suggestions.
-License
+
+# License
 
 This project is licensed under the MIT License.
