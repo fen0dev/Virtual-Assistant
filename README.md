@@ -22,52 +22,42 @@ Features:
 
 # Directory Structure
 
-bash
-
-EXAMPLE - project/
-│
-├── zina.py                # Main script to run the virtual assistant
-├── requirements.txt       # List of required Python packages
-├── folder1/
-│   ├── __init__.py
-│   └── script1.py         # Additional functionality
-└── folder2/
+    EXAMPLE - project/
+    │
+    ├── zina.py                # Main script to run the virtual assistant
+    ├── requirements.txt       # List of required Python packages
+    ├── folder1/
+    │   ├── __init__.py
+    │   └── script1.py         # Additional functionality
+    └── folder2/
     ├── __init__.py
     └── script2.py         # Additional functionality
 
 # Setup and Installation
 
-    Clone the repository:
+Clone the repository:
 
-    sh
-
-git clone https://github.com/yourusername/virtual-assistant.git
-cd virtual-assistant
+    git clone https://github.com/yourusername/virtual-assistant.git
+    cd virtual-assistant
 
 # Create a virtual environment:
 
-sh
-
-python -m venv venv
-source venv/bin/activate  ---> On Windows use `venv\Scripts\activate`
+    python -m venv venv
+    source venv/bin/activate  ---> On Windows use `venv\Scripts\activate`
 
 # Install dependencies:
 
-sh
-
     pip install -r requirements.txt
 
-    Set up API keys:
-        Obtain an API key from OpenWeatherMap and replace YOUR_OPENWEATHERMAP_API_KEY in zina.py.
-        Set up Spotify and Apple Music credentials if required.
+Set up API keys:
+    Obtain an API key from OpenWeatherMap and replace YOUR_OPENWEATHERMAP_API_KEY in zina.py.
+    Set up Spotify and Apple Music credentials if required.
 
 # Running the Assistant
 
 Run the main script:
 
-sh
-
-python main.py
+    python zina.py
 
 # Key Functions
 
