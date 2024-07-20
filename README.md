@@ -13,7 +13,7 @@ Features:
         If the command "What's the weather today?" the assistant will ask you in which city you want to know the forecast for and then returns
         the weather forecast for that specific city. By default it is set on Copenhagen, because I live in Copenhagen.
 
-        If the command "Wjat's new today?" the assistant will return the latest headlines.
+        If the command "What's new today?" the assistant will return the latest headlines.
 
     Dynamic Activity Suggestions:
         Suggests activities based on user preferences, mood, weather, and time of day.
