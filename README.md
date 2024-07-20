@@ -9,6 +9,12 @@ Features:
     Text-to-Speech:
         Responds to user commands with natural-sounding speech.
 
+    Weather and Breaking News:
+        If the command "What's the weather today?" the assistant will ask you in which city you want to know the forecast for and then returns
+        the weather forecast for that specific city. By default it is set on Copenhagen, because I live in Copenhagen.
+
+        If the command "Wjat's new today?" the assistant will return the latest headlines.
+
     Dynamic Activity Suggestions:
         Suggests activities based on user preferences, mood, weather, and time of day.
         Uses a machine learning model trained on user data to improve suggestions over time.
@@ -37,7 +43,7 @@ Features:
 
 Clone the repository:
 
-    git clone https://github.com/yourusername/virtual-assistant.git
+    git clone https://github.com/fen0dev/virtual-assistant.git
     cd virtual-assistant
 
 # Create a virtual environment:
@@ -57,7 +63,7 @@ Set up API keys:
 
 Run the main script:
 
-    python zina.py
+    python3 zina.py
 
 # Key Functions
 
